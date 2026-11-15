@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClipsByMe Legal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+<style>
+/* Layout: one readable column, two sections (terms, privacy) reachable by #terms and #privacy */
+:root { --bg:#f7f7f9; --fg:#14161c; --muted:#5b6170; --line:#dcdfe6; --accent:#6b4fe0;
+  --font:'Inter', system-ui, -apple-system, sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#111318; --fg:#f5f2ea; --muted:#9aa1ae; --line:#2c313c; --accent:#9d7bff; color-scheme:dark } }
+:root[data-theme="dark"] { --bg:#111318; --fg:#f5f2ea; --muted:#9aa1ae; --line:#2c313c; --accent:#9d7bff; color-scheme:dark }
+body { background:var(--bg); color:var(--fg); font-family:var(--font); font-size:16px; line-height:1.6; }
+main { max-width:680px; margin:0 auto; padding-block:40px 64px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font-size:2rem; font-weight:800; margin:0 0 4px; text-wrap:balance }
+h2 { font-size:1.35rem; font-weight:800; margin:40px 0 8px; padding-top:24px; border-top:1px solid var(--line); text-wrap:balance }
+h3 { font-size:1rem; font-weight:600; margin:20px 0 4px }
+p, li { color:var(--fg) } .muted { color:var(--muted); font-size:.9rem }
+nav { display:flex; gap:16px; flex-wrap:wrap; margin:16px 0 0 }
+a { color:var(--accent) } a:focus-visible { outline:2px solid var(--accent); outline-offset:2px }
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+<main>
+  <h1>ClipsByMe</h1>
+  <p class="muted">Last updated: 15 November 2026</p>
+  <p>ClipsByMe is a personal publishing tool. It uploads short educational videos (survival tips, science “what if” questions and money facts) that its owner creates to the owner’s own TikTok, Instagram and YouTube accounts. It is not offered to the public.</p>
+  <nav><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+
+  <h2 id="terms">Terms of Service</h2>
+  <h3>Who can use it</h3>
+  <p>ClipsByMe is used only by its owner to post to accounts the owner controls. No other person can sign up or connect an account.</p>
+  <h3>What it does</h3>
+  <p>With the owner’s permission, given through each platform’s official login, ClipsByMe uploads finished videos with a title, caption and hashtags. It does not like, follow, comment, message or read other users’ content.</p>
+  <h3>Content</h3>
+  <p>All videos are original, animated graphics with a synthetic narrator voice and are labelled as AI-generated where the platform offers a label. Facts in the videos are checked against public sources. The content follows each platform’s community guidelines.</p>
+  <h3>Platform rules</h3>
+  <p>Use of ClipsByMe is also subject to the terms of TikTok, Instagram and YouTube. Access can be revoked at any time in each platform’s app settings.</p>
+  <h3>No warranty</h3>
+  <p>The tool is provided as is, for personal use, without any guarantee.</p>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <h3>Data we receive</h3>
+  <p>Only the access tokens that each platform issues after the owner logs in, and the basic account identifier needed to post. No data about other users is requested, collected or stored.</p>
+  <h3>How it is used</h3>
+  <p>Tokens are used solely to upload the owner’s videos to the owner’s accounts. They are stored encrypted as private repository secrets and are never shared, sold or used for advertising.</p>
+  <h3>Retention and deletion</h3>
+  <p>Tokens are kept only while the connection is active. Revoking ClipsByMe in the platform’s settings ends access immediately; the stored tokens are then deleted.</p>
+  <h3>Contact</h3>
+  <p>Questions about this tool can be sent as a direct message to the ClipsByMe accounts on TikTok.</p>
+</main>
+</body>
+</html>
